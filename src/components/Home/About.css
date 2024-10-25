@@ -1,0 +1,35 @@
+.heading-intro {
+    font-size: 2.6em;
+    position: relative;
+    display: inline-block;
+    text-align: left;
+  }
+  
+  .curve-container {
+    margin-top: -20px; /* Adjust to move the curve closer or farther from the text */
+    margin-bottom: 30px; /* Space between the curve and the body content */
+    width: 100%;
+    height: 50px;
+  }
+  
+  .curved-line {
+    width:90%;
+    height: 100%;
+  }
+
+
+
+  
+@media screen and (max-width: 480px) {
+    .heading-intro {
+        font-size: 2.6em;     
+        margin-left: 50px; 
+      }
+
+      .curve-container {
+        margin-bottom: 0px; /* Space between the curve and the body content */
+      }
+      
+      
+}
+  
