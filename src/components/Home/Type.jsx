@@ -14,7 +14,7 @@ const Type = () => {
 
     return () => window.removeEventListener("resize", handleResize); // Cleanup event listener
   }, []);
-
+    console.log(`Font size chnaged according to screen ${fontSize}`)
   return (
     <Typewriter
       options={{

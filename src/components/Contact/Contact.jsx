@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
-import emailjs, { sendForm } from "@emailjs/browser";
+import { sendForm } from "@emailjs/browser";
+// import emailjs, { sendForm } from "@emailjs/browser";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from 'react-bootstrap/Button';
 import 'aos/dist/aos.css'; // Import AOS styles

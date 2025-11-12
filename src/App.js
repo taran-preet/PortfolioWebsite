@@ -14,7 +14,7 @@ import Contact from "./pages/Contact";
 // import Experience from "./pages/Experience";
 
 import Navbar from "./components/Navbar/Navbar";
-import Footer from "./components/Footer/Footer";
+// import Footer from "./components/Footer/Footer";
 import Preloader from "./components/PreLoader";
 import ScrollToTop from "./components/ScrollToTop";
 

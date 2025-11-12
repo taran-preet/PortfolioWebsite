@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Container, Row, Col } from "react-bootstrap";
-import { AiFillGithub, AiFillInstagram, AiOutlineTwitter } from "react-icons/ai";
+import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 import AOS from 'aos';
