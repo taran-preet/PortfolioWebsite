@@ -4,5 +4,15 @@ body {
   font-family: "Raleway", serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(to left, rgb(5, 8, 40), rgb(1, 4, 39));
+  background-image: linear-gradient(to left,  rgb(5, 8, 40), rgb(1, 4, 39));
+}
+
+
+.home-section {
+  padding-top: 0; /* Remove top padding */
+  margin-top: 0; /* Remove top margin */
+}
+
+.home-content {
+  padding: 0; /* Remove padding from home content */
 }

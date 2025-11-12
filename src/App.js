@@ -11,6 +11,7 @@ import Skill from "./pages/Skillset";
 import Project from "./pages/Projects";
 import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
+// import Experience from "./pages/Experience";
 
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";

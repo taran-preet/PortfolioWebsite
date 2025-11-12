@@ -1,30 +1,37 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Container } from "react-bootstrap";
 
 import Particle from '../components/Particle'
 import Techstack from "../components/Skillset/Techstack";
 import Toolstack from "../components/Skillset/Toolstack";
-import Leetcode from "../components/Skillset/Leetcode";
-import Github from "../components/Skillset/Github";
+import Social from "../components/Contact/Social";
+// import Leetcode from "../components/Skillset/Leetcode";
+// import Github from "../components/Skillset/Github";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Skillset = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+
   return (
     <Container fluid className="about-section">
       <Particle />
       <Container>
-        <h1 className="project-heading">
+        <h1 data-aos="fade-down"className="project-heading">
           Professional <strong className="yellow">Skillset </strong>
         </h1>
 
         <Techstack />
 
-        <h1 className="project-heading">
+        <h1 data-aos="zoom-in" className="project-heading">
           <strong className="yellow">Tools</strong> I use
         </h1>
         <Toolstack />
-
-        <Leetcode />
-        <Github />
+        <Social/>
+        {/* <Leetcode /> */}
+        {/* <Github /> */}
       </Container>
     </Container>
   )

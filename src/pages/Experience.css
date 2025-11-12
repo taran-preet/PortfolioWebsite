@@ -1,0 +1,50 @@
+
+  
+  .curve-container {
+    /* margin-top: -20px; Adjust to move the curve closer or farther from the text */
+    /* margin-bottom: 30px; Space between the curve and the body content */
+    width: 100%;
+    height: 50px;
+  }
+  
+  .curved-line {
+    margin: 15px;
+    width:70%;
+    height: 100%;
+  }
+
+
+
+
+  /* Gradient Animation */
+@keyframes gradient-animation {
+    0% {
+      border-color: #FFFFFF; /* Red */
+    }
+    
+    25% {
+      border-color: #7500fa; /* Blue */
+    }
+    50% {
+        border-color: #FFFFFF; /* Red */
+      }
+      
+    75% {
+        border-color: #7500fa; /* Blue */
+      }   
+
+    100%{
+        border-color: #FFFFFF; /* Blue */
+      }
+
+  }
+  
+  .vertical-line {
+    height: 60px;
+    border-width: 2px;
+    border-style: solid;
+    width: 0px;
+    margin: 0 auto;
+    animation: gradient-animation 3s infinite; /* Apply animation */
+  }
+  
