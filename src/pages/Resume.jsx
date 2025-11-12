@@ -14,7 +14,7 @@ import 'aos/dist/aos.css';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-const resumeLink = `https://raw.githubusercontent.com/taran-preet/portfolio/main/src/assets/${pdf}`;
+const resumeLink = `https://raw.githubusercontent.com/taran-preet/portfolio/main/src/assets/Taranpreet_SoftwareEngineer.pdf`;
 
 const Resume = () => {
   const [width, setWidth] = useState(1200);
