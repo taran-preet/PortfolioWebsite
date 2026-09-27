@@ -43,7 +43,6 @@ const About = () => {
                 </svg>
               </div>
 
-
             <p className="home-about-body">
                 <span data-aos="fade-up" data-aos-delay="400">
                   Hi, my name is <span className="yellow">Taranpreet Singh Baweja </span>
@@ -52,28 +51,29 @@ const About = () => {
                 <br />
                 <br />
                 <span data-aos="fade-up" data-aos-delay="500">
-                  I recently graduated with a Bachelor's degree in Computer Science and Engineering from 
-                  <span className="yellow"> Thapar University, Patiala </span> in 2024.
+                  I graduated with a Bachelor's degree in Computer Science and Engineering from 
+                  <span className="yellow"> Thapar University, Patiala </span> in 2024, and currently work as an 
+                  <b className="yellow"> Associate Software Developer (Full Stack)</b> at Kindlebit Solutions.
                 </span>
                 <br />
                 <br />
                 <span data-aos="fade-up" data-aos-delay="600">
-                  As a <b className="yellow">Frontend</b> developer, I enjoy tackling new challenges and continuously expanding my skillset.
+                  As a <b className="yellow">Full Stack</b> developer, I've delivered multiple client applications end-to-end, from authentication and core features to launched, production-ready products.
                 </span>
                 <br />
                 <br />
                 <span data-aos="fade-up" data-aos-delay="700">
-                  I am proficient in <b className="yellow">Javascript</b>, as well as have knowledge in programming languages such as C, C++, Python, SQL, and MongoDB and modern Javascript libraries and
-                  <b className="yellow"> frameworks like React.js and React Native</b>
+                  I am proficient in <b className="yellow">JavaScript</b> and <b className="yellow">TypeScript</b>, with hands-on experience building scalable applications using
+                  <b className="yellow"> React.js, Next.js, Node.js, Redux</b>, and databases like <b className="yellow">MongoDB</b> and <b className="yellow">PostgreSQL</b>.
                 </span>
                 <br />
                 <br />
                 <span data-aos="fade-up" data-aos-delay="800">
-                  I am also interested in building new <b className="yellow">Web Technologies and Products</b>, as well as exploring areas related to 
-                  <b className="yellow"> Full Stack MERN Development</b>
+                  I've also built and shipped real products, including <b className="yellow">YourBDM</b> (an AI sales-coaching CRM) and 
+                  <b className="yellow"> Insiders Health</b> (an AI wellness platform with Stripe billing), and I'm always exploring new areas in 
+                  <b className="yellow"> Full Stack Web Development</b>.
                 </span>
             </p>
-
           </Col>
           <Col 
             md={4} 

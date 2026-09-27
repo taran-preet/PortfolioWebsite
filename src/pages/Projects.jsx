@@ -6,6 +6,11 @@ import pg from "../assets/projects/pg.png";
 import project from "../assets/projects/project.jpeg";
 import kickstart from "../assets/projects/kickstart.png";
 import umang from "../assets/projects/umang.png";
+// TODO: import your new project images here, e.g.:
+import insidersHealth from "../assets/projects/insidersHealth.png";
+import yourbdm from "../assets/projects/yourbdm.png";
+import mclery from "../assets/projects/mcleryProject.png";
+import datagenix from "../assets/projects/Datagenix.png";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -25,7 +30,65 @@ const Projects = () => {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
           
+          <Col md={4} className="project-card" data-aos="zoom-in">
+            <ProjectCard
+              imgPath={insidersHealth}
+              isBlog={false}
+              isDoc={true}
+              title="Insiders Health"
+              description="Built an AI-powered wellness platform with 12 specialized AI coaches and personalized AI-generated meal plans.
+                • Implemented authentication, profile/onboarding, and subscription billing via Stripe and Apple/Android in-app purchases.
+                • Tech-Stack: Next.js, Redux, Tailwind, JavaScript, REST APIs, MongoDB."
+              ghLink="https://drive.google.com/file/d/1E2ClqaX3MOiNRwvYpJ-Cyto74IGTwIYK/view?usp=sharing"
+              demoLink="https://insidershealth.ai/signin"
+            />
+          </Col>
+
+          <Col md={4} className="project-card" data-aos="zoom-in">
+            <ProjectCard
+              imgPath={yourbdm}
+              isBlog={false}
+              isDoc={true}
+              title="YourBDM"
+              description="Built a full-stack AI sales-coaching CRM for UK recruitment agencies, featuring AI-generated pre-call briefs and post-call coaching analysis.
+                • Developed prospect pipeline, AI roleplay practice arena, and admin/team management with role-based permissions.
+                • Tech-Stack: React.js, Node.js, AI Integration."
+              ghLink="https://drive.google.com/file/d/1etWY_2qmfAxt6SiAPYhRw9AiZA8KPVys/view?usp=drive_link"
+              demoLink="https://yourbdm.kindlebit.org/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card" data-aos="zoom-in">
+            <ProjectCard
+              imgPath={mclery}
+              isBlog={false}
+              isDoc={true}
+              title="Mclery Law Firm"
+              description="Built an admin portal managing client bookings, rescheduling, and cancellations from an AI intake chatbot.
+                • Integrated Outlook calendar sync, automated email notifications, and attorney scheduling/availability management.
+                • Tech-Stack: React.js, Redux, TypeScript, Tailwind, JavaScript, REST APIs, Java, PostgreSQL."
+              ghLink="https://drive.google.com/file/d/1BxAdlo9JlaYgD-PDAgxY90kQVDEhUgK1/view?usp=drive_link"
+              demoLink="https://chatbotlawfirm-dashboard.kindlebit.com/login"
+            />
+          </Col>
+
+          <Col md={4} className="project-card" data-aos="zoom-in">
+            <ProjectCard
+              imgPath={datagenix}
+              isBlog={false}
+              isDoc={true}
+              title="Datagenix"
+              description="Built a ChatGPT-style internal AI assistant with knowledge-base uploads and AI-generated PDF/Word/Excel/SQL outputs.
+                • Implemented role-based AI token allocation and usage management across teams.
+                • Tech-Stack: React.js, React-redux, AI Integration."
+              ghLink="https://drive.google.com/file/d/1z3fErzcNz3j8DGx36TAbMFKMgCfqLr1X/view?usp=drive_link"
+              demoLink="https://www.datagenix-ai.com/login"
+            />
+          </Col>
+
+
           <Col md={4} className="project-card" data-aos="zoom-in">
             <ProjectCard
               imgPath={pg}
@@ -77,6 +140,9 @@ const Projects = () => {
               ghLink="https://github.com/taran-preet/collegeUmang/tree/main/collegeUmang"
             />
           </Col>
+
+          {/* ---- New Client / Professional Projects ---- */}
+
 
         </Row>
       </Container>

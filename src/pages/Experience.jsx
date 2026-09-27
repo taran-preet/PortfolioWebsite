@@ -12,14 +12,23 @@ const Experience = () => {
 
   const experiences = [
     {
+      company: "Kindlebit Solutions Private Ltd",
+      role: "Software Developer (Full Stack)",
+      description: `Delivered 4 client applications across frontend and full-stack engagements, including 2 built from scratch to production launch.
+        • Built frontend interfaces for Datagenix and Mclery Lawfirm using React.js and Next.js, focusing on performance and responsive UI.
+        • Owned end-to-end development of YourBDM and Insiders Health (launched), including authentication, authorization, core features, and UI.
+        • Integrated Stripe for web payments and implemented in-app purchase flows for iOS and Android on Insiders Health.`,
+      date: "Mar 2026 - Present"
+    },
+    {
       company: "Seasia Infotech Private Ltd",
-      role: " Associate Software Developer",
+      role: "Associate Software Developer",
       description: `Build a blogging platform that allows users to create and publish diverse content, including text, videos, photos, and
         status updates. Users can easily add, edit, and manage their blog posts, offering a dynamic and engaging way to share
         their ideas.
         • Implemented User authentication and authorization with Appwrite in backend, ensuring secure web application access.
         • Utilized React-redux for state management and hooks to ensure proper state management in the application`,
-      date: "Sep 2024 - Present"
+      date: "Sep 2024 - Feb 2026"
     },
     {
       company: "CodeTown Pvt Ltd",
@@ -34,7 +43,7 @@ const Experience = () => {
     },
     {
       company: "KhalsaSoft",
-      role: " Frontend Developer intern",
+      role: " Frontend Developer (Summer internship)",
       description: `Designed and built a multi-page e-commerce website, incorporating various Bootstrap components such as carousels
         and pagination across key pages like Home, Product Listing, Product Details, and Checkout, to effectively display and
         navigate different product categories.
@@ -44,7 +53,6 @@ const Experience = () => {
       date: "Jun 2023 – Aug 2023"
     }
   ];
-
   return (
     <Container className="my-5">
       <Particle />

@@ -34,7 +34,7 @@ const ProjectCard = (props) => {
           alignContent: "space-between",
         }}
       >
-        <Card.Title>{props.title}</Card.Title>
+        <Card.Title><u>{props.title}</u></Card.Title>
         <Card.Text style={{ textAlign: "justify",fontSize:"15px" }}>
           {props.description}
         </Card.Text>
@@ -53,7 +53,7 @@ const ProjectCard = (props) => {
           }}
         >
           <BsGithub /> &nbsp;
-          {props.isBlog ? "Blog" : "GitHub"}
+          {props.isBlog ? "Blog" : props.isDoc ? "Documentation URL" : "GitHub"}
         </Button>
         {"\n"}
         {"\n"}
@@ -77,7 +77,7 @@ const ProjectCard = (props) => {
             }}
           >
             <CgWebsite /> &nbsp;
-            {"Demo"}
+            {"Live URL"}
           </Button>
         )}
       </Card.Body>
